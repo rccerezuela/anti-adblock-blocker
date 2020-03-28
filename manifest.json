@@ -1,9 +1,8 @@
 {
-  "name": "Getting Started Example",
+  "name": "Anti Adbolock Blocker",
   "version": "1.0",
-  "description": "Build an Extension!",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
-  "options_page": "options.html",
+  "description": "Quita los popups de adblock para la web de el heraldo de Aragón!",
+  "permissions": ["activeTab", "declarativeContent"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
