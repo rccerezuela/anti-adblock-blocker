@@ -10,5 +10,6 @@
     }
 
 
-    body.removeAttribute('style');
+  //  body.removeAttribute('style');
+    body.style.removeProperty('overflow');
 }
