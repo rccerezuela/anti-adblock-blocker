@@ -8,7 +8,7 @@ Automatic removal of adblock pop ups
  - https://*.abc.es
  - https://*.elpais.com
 
-## Install isntructions
+## Install instructions
  - Clone the repo
  - Go to chrome://extensions
  - Activate developer mode from top right 
