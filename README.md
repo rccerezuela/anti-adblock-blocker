@@ -1,5 +1,5 @@
 # anti-adblock-blocker
-Automatic removal of adblock pop ups
+A chrome extension for automatic removal of adblock detector pop ups
 
 ## Current supported pages
  - https://*.heraldo.es
