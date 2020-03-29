@@ -15,7 +15,17 @@ chrome.runtime.onInstalled.addListener(function() {
           }),
           new chrome.declarativeContent.PageStateMatcher({
             pageUrl: {hostEquals: 'www.elmundo.es'},
-          })
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: {hostEquals: 'okdiario.com'},
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: {hostEquals: 'www.abc.es'},
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: {hostEquals: 'elpais.com'},
+          }),
+         
         ],
       actions: [new chrome.declarativeContent.ShowPageAction()]
     }]);

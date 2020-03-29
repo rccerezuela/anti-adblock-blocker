@@ -1,14 +1,14 @@
 {
   "name": "Anti Adbolock Blocker",
   "version": "1.0",
-  "description": "Quita los popups de adblock para la web de el heraldo de Aragón!",
+  "description": "Quita los popups de adblock",
   "permissions": ["activeTab", "declarativeContent"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "page_action": {
-    "default_popup": "popup.html",
+  
     "default_icon": {
       "16": "images/icon16.png",
       "32": "images/icon32.png",
@@ -16,6 +16,19 @@
       "128": "images/icon128.png"
     }
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.heraldo.es/*",
+        "https://*.elmundo.es/*",
+        "https://*.okdiario.com/*",
+        "https://*.abc.es/*",
+        "https://*.elpais.com/*"
+      
+      ],
+      "js": ["removeAdd.js"]
+    }
+  ],
   "icons": {
     "16": "images/icon16.png",
     "32": "images/icon32.png",
