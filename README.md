@@ -12,5 +12,5 @@ A chrome extension for automatic removal of adblock detector pop ups
  - Clone the repo
  - Go to chrome://extensions
  - Activate developer mode from top right 
- - Load unpacked extension, select clone directory
+ - Load unpacked extension and select cloned directory
  - Enjoy :)
