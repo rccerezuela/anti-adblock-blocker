@@ -26,6 +26,11 @@ chrome.runtime.onInstalled.addListener(function() {
             pageUrl: {hostEquals: 'elpais.com'},
           }),
          
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: {hostEquals: 'www.telecinco.es'},
+          })
+          
+
         ],
       actions: [new chrome.declarativeContent.ShowPageAction()]
     }]);
