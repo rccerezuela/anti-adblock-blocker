@@ -7,6 +7,7 @@ A chrome extension for automatic removal of adblock detector pop ups
  - https://*.okdiario.com
  - https://*.abc.es
  - https://*.elpais.com
+ - https://*.telecinco.es
 
 ## Install instructions
  - Clone the repo
