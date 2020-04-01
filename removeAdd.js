@@ -5,6 +5,7 @@
         if (document.readyState == "complete") {
           
             const elements = document.getElementsByClassName("fc-ab-root");
+            
             const body = document.body;
 
             if(elements){
@@ -14,6 +15,12 @@
             }
 
             body.style.removeProperty('overflow');
+
+            
+            //tele 5
+            elements = document.getElementById("pageMultisite").remove();
+
+           
         }
     }
 

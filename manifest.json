@@ -23,7 +23,8 @@
         "https://*.elmundo.es/*",
         "https://*.okdiario.com/*",
         "https://*.abc.es/*",
-        "https://*.elpais.com/*"
+        "https://*.elpais.com/*",
+        "https://*.telecinco.es/*"
       
       ],
       "js": ["removeAdd.js"]
