@@ -28,8 +28,13 @@ chrome.runtime.onInstalled.addListener(function() {
          
           new chrome.declarativeContent.PageStateMatcher({
             pageUrl: {hostEquals: 'www.telecinco.es'},
-          })
+          }),
           
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: {hostEquals: 'jotapov.com'},
+          })
+
+         
 
         ],
       actions: [new chrome.declarativeContent.ShowPageAction()]

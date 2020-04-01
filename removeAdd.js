@@ -4,7 +4,7 @@
 
         if (document.readyState == "complete") {
           
-            const elements = document.getElementsByClassName("fc-ab-root");
+            let elements = document.getElementsByClassName("fc-ab-root");
             
             const body = document.body;
 
@@ -18,10 +18,22 @@
 
             
             //tele 5
-            elements = document.getElementById("pageMultisite").remove();
+            if(document.getElementById("pageMultisite")){
+                document.getElementById("pageMultisite").remove();
+            }
+            
 
-           
+           //jpov
+            elements = document.getElementsByClassName("jconfirm-dhantiadblocker"); 
+
+            if(elements){
+                while (elements.length > 0){
+                    elements[0].remove();
+                } 
+            }
+        
         }
+    
     }
 
 }
